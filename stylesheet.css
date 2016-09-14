@@ -1,0 +1,42 @@
+ul{
+  overflow: hidden;
+  list-style: none;
+}
+
+ul img {
+  width: 30%;
+  overflow: hidden;
+  float:left;
+  display: block;
+  position: relative;
+  border: 1px solid gray;
+  margin: 10px;
+
+}
+
+footer img {
+  width: 45px;
+  float: left;
+  display: inline-block;
+  position:absolute;
+  bottom: -50px;
+  margin: 30px 108px;
+}
+
+
+cite {
+  margin:5px 0;
+  float: left;
+  display: inline-block;
+  position:absolute;
+  bottom: 28%;
+  margin: 20px -205px;
+}
+
+.octonumber {
+  display: inline-block;
+  position:absolute;
+  top: 63%;
+  float:left;
+  margin:5px -375px;
+}
