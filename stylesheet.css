@@ -2,24 +2,27 @@
   box-sizing: border-box;
 }
 
+/*Take away the bullet points*/
 ul{
   overflow: hidden;
   list-style: none;
 }
 
+/*Float the large images left, put in margin*/
 li.octocat:first-child, li.octocat:nth-child(2), li.octocat:nth-child(3){
   float:left;
   width: 30%;
   overflow: hidden;
-  float:left;
   margin-left: 15px;
 }
 
+ /*put a border around all images with links*/
  a img {
    width:100%;
    border: 1px solid gray;
  }
 
+/*float class author images right so that it aligns horizontally beside the citation*/
 .authors {
   float:right;
   overflow: hidden;
@@ -27,19 +30,19 @@ li.octocat:first-child, li.octocat:nth-child(2), li.octocat:nth-child(3){
   max-height: 100%
 }
 
+/*float right the individual lines containing image and link so they align horizontally*/
 .authors li {
   float:right;
+  margin: 3px;
 }
 
+/*formatting for author images only*/
  footer img {
    width: 20px;
    margin-top: 7px;
  }
 
-footer img {
-  width: 45px;
-}
-
+/*float citation right so it is next to author image*/
 footer cite {
   float: right;
   font: 13px helvetica,arial,sans-serif;
@@ -49,9 +52,12 @@ cite.a {
   text-decoration: none;
 }
 
+/*float left so number is on the left below the large image*/
 .octonumber {
   float:left;
 }
+
+/*triangle styles*/
 .triangle-down {
   margin-left:350px;
   width: 0;
